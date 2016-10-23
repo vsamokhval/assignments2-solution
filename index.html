@@ -40,7 +40,6 @@
                <span class="glyphicon glyphicon-ok">Bought</span>
            </button>
        </li>
-       <!--<li>Buy 10 cookies <button class="btn btn-default"><span class="glyphicon glyphicon-ok"></span> Bought</button></li>-->
      </ul>
      <div ng-if="!buyCtrl.items.length" class="emptyMessage">Everything is bought!</div>
     </div>
@@ -52,7 +51,6 @@
        <li ng-repeat="item in boughtCtrl.items">
            Bought {{ item.quantity }} {{ item.name }}
        </li>
-       <!--<li>Bought 10 cookies</li>-->
      </ul>
      <div ng-if="!boughtCtrl.items.length" class="emptyMessage">Nothing bought yet.</div>
     </div>
